@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*{
+    font-size: 46px;
+    margin: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color:brown;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 15px 10px;
+    margin: 0px 20px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.5rem;
+}
+li a:hover{
+    color: black;
+}
+.contact{
+    margin-right: 20px;
+}
+ul{
+    display: flex;
+}
+
+.logo{
+    font-size: 0.5rem;
+    font-weight: bolder;
+}
+
+/* .logo:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-in;
+} */
+
+.logo,a {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+        opacity: 0;
+      /* margin-left: 0%; */
+      /* width: 100%; */
+    }
+  
+    /* 75% {
+      font-size: 100%;
+      margin-left: 25%;
+      width: 150%;
+    } */
+  
+    to {
+        opacity: 1;
+      /* margin-left: 100%; */
+      /* width: 100%; */
+    }
+  }
